@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { JSX, useState } from 'react';
 import { AGENCY } from '@/data/agency';
 
 const ICONS: Record<string, JSX.Element> = {
@@ -67,11 +67,10 @@ export default function Services() {
               key={svc.id}
               id={`service-card-${svc.id}`}
               onClick={() => setActive(active === svc.id ? null : svc.id)}
-              className={`relative group cursor-pointer bg-white/[0.03] border rounded-2xl p-7 transition-all duration-300 hover:bg-white/[0.06] ${
-                active === svc.id
+              className={`relative group cursor-pointer bg-white/[0.03] border rounded-2xl p-7 transition-all duration-300 hover:bg-white/[0.06] ${active === svc.id
                   ? 'border-violet-500/50 shadow-lg shadow-violet-500/10'
                   : 'border-white/8 hover:border-white/15'
-              }`}
+                }`}
             >
               {/* Badge */}
               {svc.badge && (
@@ -97,9 +96,8 @@ export default function Services() {
 
               {/* Expandable features */}
               <div
-                className={`overflow-hidden transition-all duration-300 ${
-                  active === svc.id ? 'max-h-60 opacity-100' : 'max-h-0 opacity-0'
-                }`}
+                className={`overflow-hidden transition-all duration-300 ${active === svc.id ? 'max-h-60 opacity-100' : 'max-h-0 opacity-0'
+                  }`}
               >
                 <p className="text-white/60 text-sm mb-4 leading-relaxed">{svc.description}</p>
                 <ul className="space-y-2">

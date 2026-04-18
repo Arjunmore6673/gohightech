@@ -1,4 +1,5 @@
 import { AGENCY } from '@/data/agency';
+import { JSX } from 'react';
 
 const ICONS: Record<string, JSX.Element> = {
   search: (
