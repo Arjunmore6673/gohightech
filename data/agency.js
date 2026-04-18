@@ -190,6 +190,30 @@ export const AGENCY = {
   // ─── Portfolio / Work ──────────────────────────────────────────────────
   work: [
     {
+      title: '!t junct!on',
+      category: 'Website',
+      tags: ['Web Design', 'Responsive', 'Netlify'],
+      description:
+        'Designed and launched a responsive website for !t junct!on, highlighting their services and local Pune presence.',
+      metrics: ['Netlify Deployment', 'Local SEO', 'Pune Business'],
+      color: 'from-sky-500 to-indigo-600',
+      icon: '💻',
+      address: 'Sai Chowk, Shastri Nagar, Pimpri Colony, Pune, Pimpri-Chinchwad, Maharashtra 411017',
+      url: 'https://itjunction.netlify.app/',
+    },
+    {
+      title: 'Mahaveer Furniture',
+      category: 'Website',
+      tags: ['E-commerce', 'Responsive', 'Netlify'],
+      description:
+        'Built a polished website for Mahaveer Furniture, presenting product lines and store location for customers in Pune.',
+      metrics: ['Netlify Deployment', 'Furniture Brand', 'Storefront Website'],
+      color: 'from-amber-500 to-orange-500',
+      icon: '🛋️',
+      address: 'Gut number 1614, Dehu Alandi road Chikhali, Pune Maharashtra 411062',
+      url: 'https://mahaveerfurniture.netlify.app/',
+    },
+    {
       title: 'Western Union',
       category: 'Web & Mobile',
       tags: ['React.js', 'React Native', 'TypeScript', 'GraphQL'],
